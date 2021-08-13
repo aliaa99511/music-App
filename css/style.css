@@ -1,0 +1,195 @@
+
+
+/*
+#9475fe
+*/
+
+.parent {
+    background-color: #9475fe;
+    width: 100%;
+    height: 754px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.musicApp{
+    background-color: white;
+    width: 400px;
+    height: 691px;
+    margin-left: 300px;
+    padding: 36px;
+    border-radius: 40px;
+}
+/*********************************************/
+.volume {
+    display: flex;
+    margin-left: 22px;
+    margin-right: 26px;
+    margin-top: 24px;
+    height: 65px;
+}
+.volume img{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+
+}
+.volume #volumedown {
+    margin-right: 15px;
+}
+.volume #volumeup{
+    margin-left: 15px;
+}
+.slider {
+    width: 208px;
+    height: 1.5px!important;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    background-color: gray;
+    z-index: 100;
+    outline: none;
+    position: relative;
+    margin-top: 8px;
+}
+.slider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    width: 15px;
+    height: 15px;
+    background-color: #9475fe;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    transform: scale(1);
+}
+.slider:active::-webkit-slider-thumb{
+    transform: scale(1.2);
+}
+/*********************************************************************/
+.circle {
+    margin-top: 21px;
+    margin-left: 39px;
+    height: 233px;
+    margin-bottom: 24px;
+}
+.circle #image {
+    border-radius: 50%;
+    width: 243px;
+    height: 236px;
+    border: 10px solid #ebeaea;
+}
+/*******************************************************/
+.details {
+    /*margin-top: 24px;*/
+    height: 133px;
+}
+.details #actor {
+    color: #4b4646;
+    font-weight: 400;
+}
+.details #song {
+    color: #7e7979;
+    font-weight: 300;
+}
+/**************************************************************/
+.repeafull{
+    margin-left: 24px;
+    height: 50px;
+
+}
+.repeafull img {
+    width: 22px;
+    height: 20px;
+    cursor: pointer;
+
+}
+.repeafull #repeat{
+    margin-right: 167px;
+    margin-top: 12px;
+
+}
+.repeafull #full{
+    margin-left: 50px;
+    margin-top: 12px;
+
+}
+
+/****************************************************************/
+.time {
+    display: flex;
+    /*margin-top: 92px;*/
+    height: 80px;
+}
+.time #startime {
+    margin-right: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4b4848;
+}
+.time #currentime{
+    margin-left: 24px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #4b4848;
+}
+.seekslider {
+    width: 295px;
+    height: 3px!important;
+    -webkit-appearance: none;
+    border-radius: 10px;
+    background-color: gray;
+    z-index: 100;
+    outline: none;
+    position: relative;
+    margin-top: 49px;
+}
+.seekslider::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: #9475fe;
+    border-radius: 50%;
+    cursor: pointer;
+    outline: none;
+    transform: scale(1);
+}
+.seekslider:active::-webkit-slider-thumb{
+    transform: scale(1.2);
+}
+/*****************************************************/
+.buttons {
+    display: flex;
+    /*margin-top: 46px;*/
+}
+button{
+    background-color: transparent;
+    outline: none!important;
+    border: none!important;
+}
+button:focus { 
+    border: none!important;
+    outline:none!important;
+}
+
+
+.buttons .fa-backward{
+    font-size: 35px;
+    margin-right: 71px;
+}
+.buttons #playbtn{
+    background-color: #9475fe;
+    background-color: #9475fe;
+    width: 65px;
+    height: 65px;
+    text-align: center;
+    border-radius: 50%;
+    line-height: 70px;
+}
+.buttons #playicon{
+    color: white;
+    font-size: 25px;
+}
+.buttons .fa-forward{
+    font-size: 35px;
+    margin-left: 68px;
+}
+
